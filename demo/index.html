@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="module">
+        import '../contact-card.js';
+    </script>
+    <title>ContactCard</title>
+</head>
+<body>
+    <contact-card></contact-card>
+    <script>
+        const node = document.querySelector('contact-card');
+        node.contact = {
+            name: 'Alfonso',
+            lastName: 'Rios',
+            phone: '5538259461',
+            gender: 'male',
+            address: 'Buffon 46',
+            email: 'alfonso@domain.com',
+            nss: '96119690517',
+            rfc: 'RIMM960226E49',
+            bloodType: 'o+',
+            curp: 'RIMM960226HDFSDN05',
+            image: 'https://miro.medium.com/fit/c/256/256/0*-m_ymtuYFsFP66CW.',
+            skills: ['LitElement']
+        };
+    </script>
+</body>
+</html>
